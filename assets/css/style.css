@@ -135,7 +135,7 @@ a:hover {
 .social-icons {
   text-align: center;
   display: block;
-  font-size: 28px;
+  font-size: 32px;
   color: white;
   user-select: none;
 }
@@ -149,7 +149,7 @@ a:hover {
 }
 .social-icons-pagination li {
   float: left;
-  margin: 10px 10px 10px 0;
+  margin: 5px 5px 5px 0;
 }
 .social-media-list li:last-of-type {
   margin-right: 0;
