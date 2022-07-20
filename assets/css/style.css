@@ -1,11 +1,9 @@
+/* Import fonts */
 @import url("http://fonts.googleapis.com/css?family=Roboto");
 @import url("http://fonts.googleapis.com/css?family=Ruda");
 @import url("http://fonts.googleapis.com/css?family=Rubik");
 
-html {
-  font-size: 16px;
-}
-
+/* Reset */
 body,
 h1,
 h2,
@@ -26,84 +24,18 @@ figure {
   padding: 0;
 }
 
+/* Default font size */
+html {
+  font-size: 16px;
+}
+
+/* Font family and background colour */
 body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
+  font-family: "Rubik", sans-serif;
   background: black;
-  opacity: 0;
-  display: flex;
-  flex-direction: column;
-  overflow-wrap: break-word;
-  animation: 1s ease-out 0.3s 1 anim;
-  animation-fill-mode: forwards;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
-@keyframes anim {
-  0% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-ul,
-ol,
-dl,
-figure,
-.highlight {
-  margin-bottom: 15px;
-}
-hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-main {
-  display: block;
-}
-img {
-  max-width: 100%;
-  vertical-align: middle;
-}
-figure > img {
-  display: block;
-}
-figcaption {
-  font-size: 14px;
-}
-ul,
-ol {
-  margin-left: 30px;
-}
-li > ul,
-li > ol {
-  margin-bottom: 0;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
-}
-
+/* Links */
 a {
   color: #f678ff;
   text-decoration: none;
@@ -119,10 +51,11 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Everything */
 .container {
   position: relative;
-  width: 100%;
   max-width: 600px;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
   padding: 0 20px;
@@ -142,23 +75,20 @@ a:hover {
   }
 }
 
-.picture img {
-  position: relative;
+/* Avatar image */
+.avatar {
   width: 128px;
   height: 128px;
-  display: block;
-  margin: 35px auto 20px;
+  margin: 20px auto auto;
   border-radius: 50%;
-  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
+/* Username and alias */
 .username {
   color: white;
   font-size: 32px;
   font-weight: bold;
-  line-height: 1.25;
-  display: block;
-  font-family: var(--font);
   text-align: center;
   text-decoration: none;
   user-select: none;
@@ -168,21 +98,17 @@ a:hover {
   opacity: 0.3;
   color: white;
   font-size: 14px;
-  line-height: 0.25;
-  display: block;
-  font-family: var(--font);
   text-align: center;
   text-decoration: none;
   user-select: none;
+  margin: -6px auto auto auto;
 }
 
+/* Text stuff */
 .big-text {
   color: white;
   font-size: 32px;
   font-weight: bold;
-  line-height: 1.5;
-  display: block;
-  font-family: var(--font);
   text-align: center;
   text-decoration: none;
   user-select: none;
@@ -191,14 +117,21 @@ a:hover {
 .small-text p {
   opacity: 0.6;
   color: white;
-  font-size: 1rem;
-  line-height: 1;
-  display: block;
-  font-family: var(--font);
+  font-size: 18px;
+  line-height: 1.2;
   text-align: center;
   text-decoration: none;
 }
 
+.really-small-text {
+  opacity: 1;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Social icons */
 .social-icons {
   font-size: 32px;
   color: white;
@@ -210,7 +143,7 @@ a:hover {
   list-style: none;
   display: table;
   margin: 0 auto;
-  font-size: 2rem;
+  font-size: 32px;
 }
 .social-icons-pagination li {
   float: left;
@@ -224,12 +157,14 @@ a:hover {
   padding: 3.75px;
 }
 
+/* Video */
 .vid {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
+/* Image (unused) */
 .img {
   margin-left: auto;
   margin-right: auto;
