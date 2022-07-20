@@ -18,6 +18,11 @@
   </head>
 
   <body>
+    <audio autoplay loop id="background-song">
+      <source src="assets/[TwuP9ycZygw].mp3">
+    </audio> 
+
+    <div class="container">
     <a class="picture">
       <img
         src="https://cdn.discordapp.com/avatars/701158337487831050/250ca6be888457ef1b8b0def941ba20c.png?size=2048"
@@ -118,5 +123,10 @@
         allowfullscreen
       ></iframe>
     </div>
-  </body>
+  </div>
+  </body>  
 </html>
+
+<script>
+  document.getElementById("background-song").volume = 0.1;
+</script>   

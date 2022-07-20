@@ -119,6 +119,29 @@ a:hover {
   text-decoration: underline;
 }
 
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 550px) {
+  .container {
+    width: 80%;
+  }
+}
+
 .picture img {
   position: relative;
   width: 128px;
