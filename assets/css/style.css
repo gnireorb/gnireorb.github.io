@@ -133,6 +133,8 @@ a:hover {
 
 /* Social icons */
 .social-icons {
+  text-align: center;
+  display: block;
   font-size: 32px;
   color: white;
   user-select: none;
