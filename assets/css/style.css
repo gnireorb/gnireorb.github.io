@@ -37,17 +37,17 @@ body {
 
 /* Links */
 a {
-  color: #f678ff;
+  color: #d469c1;
   text-decoration: none;
 }
 a:visited {
-  color: #f678ff;
+  color: #d469c1;
 }
 a:focus {
   outline: none;
 }
 a:hover {
-  color: lightgray;
+  color: #81a1c1;
   text-decoration: underline;
 }
 
@@ -86,7 +86,7 @@ a:hover {
 
 /* Username and alias */
 .username {
-  color: white;
+  color: #eceff4;
   font-size: 32px;
   font-weight: bold;
   text-align: center;
@@ -96,7 +96,7 @@ a:hover {
 
 .alias {
   opacity: 0.3;
-  color: white;
+  color: #d8dee9;
   font-size: 14px;
   text-align: center;
   text-decoration: none;
@@ -106,7 +106,7 @@ a:hover {
 
 /* Text stuff */
 .big-text {
-  color: white;
+  color: #eceff4;
   font-size: 32px;
   font-weight: bold;
   text-align: center;
@@ -115,8 +115,8 @@ a:hover {
 }
 
 .small-text p {
-  opacity: 0.6;
-  color: white;
+  opacity: 0.7;
+  color: #d8dee9;
   font-size: 18px;
   line-height: 1.2;
   text-align: center;
@@ -125,7 +125,7 @@ a:hover {
 
 .really-small-text {
   opacity: 1;
-  color: white;
+  color: #d8dee9;
   font-size: 14px;
   text-align: center;
   text-decoration: none;
