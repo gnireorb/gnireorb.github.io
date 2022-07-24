@@ -104,15 +104,9 @@ a:hover {
 .social-icons {
     text-align: center;
     display: block;
-    font-size: 32px;
+    font-size: 28px;
     color: white;
     user-select: none;
-    transition: all .3s ease-in-out;
-}
-
-.social-icons li:hover {
-    transition: all .1s ease-in;
-    transform: scale(1.1)
 }
 
 .social-icons-pagination {
@@ -126,6 +120,13 @@ a:hover {
 .social-icons-pagination li {
     float: left;
     margin: 7px 7px 0 0;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.social-icons-pagination li:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
 }
 
 .vid {
