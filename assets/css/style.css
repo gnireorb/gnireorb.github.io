@@ -48,6 +48,11 @@ a:hover {
     text-decoration: underline;
 }
 
+b {
+    opacity: 1;
+    font-weight: bold;
+}
+
 .avatar {
     width: 128px;
     height: 128px;
@@ -66,7 +71,7 @@ a:hover {
 }
 
 .alias {
-    opacity: 0.3;
+    opacity: 1;
     color: #d8dee9;
     font-size: 14px;
     text-align: center;
