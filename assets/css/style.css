@@ -1,6 +1,7 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto");
 @import url("http://fonts.googleapis.com/css?family=Ruda");
 @import url("http://fonts.googleapis.com/css?family=Rubik");
+
 body,
 h1,
 h2,
@@ -53,6 +54,31 @@ b {
     font-weight: bold;
 }
 
+h1 {
+    color: #eceff4;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+}
+
+p#verysmall {
+    opacity: 1;
+    color: #d8dee9;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+p#small {
+    opacity: 0.90;
+    color: #d8dee9;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
 .avatar {
     width: 128px;
     height: 128px;
@@ -78,32 +104,6 @@ b {
     text-decoration: none;
     user-select: none;
     margin: -6px auto auto auto;
-}
-
-.big-text {
-    color: #eceff4;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-}
-
-.small-text p {
-    opacity: 0.7;
-    color: #d8dee9;
-    font-size: 18px;
-    line-height: 1.2;
-    text-align: center;
-    text-decoration: none;
-}
-
-.really-small-text {
-    opacity: 1;
-    color: #d8dee9;
-    font-size: 14px;
-    text-align: center;
-    text-decoration: none;
 }
 
 .social-icons {
@@ -134,11 +134,6 @@ b {
     transition: transform 0.3s;
 }
 
-.vid {
-    margin: 10px auto auto;
-    display: flex;
-}
-
 .video-container {
     width: 70vw;
     max-width: 560px;
@@ -153,12 +148,6 @@ b {
     max-width: 560px;
     height: calc((9/16)*70vw);
     max-height: calc((9/16)*560px);
-}
-
-.img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
 
 .container {
